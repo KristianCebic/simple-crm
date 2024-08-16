@@ -21,13 +21,15 @@ import {MatButtonModule} from '@angular/material/button';
     RouterModule,
     MatDatepickerModule,
     MatNativeDateModule,
-    MatButtonModule
+    MatButtonModule,
+    MatNativeDateModule
   ],
   templateUrl: './dialog-add-user.component.html',
   styleUrl: './dialog-add-user.component.scss',
 })
 export class DialogAddUserComponent {
   user = new User();
+  
   birthDate!: Date;
 
   constructor() {

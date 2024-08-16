@@ -5,6 +5,8 @@ import { MatToolbarModule } from '@angular/material/toolbar';
 import { MatSidenavModule } from '@angular/material/sidenav';
 import { MatIconModule } from '@angular/material/icon';
 import { MatDatepicker } from '@angular/material/datepicker';
+import { FormsModule } from '@angular/forms';
+import { MatNativeDateModule } from '@angular/material/core';
 
 @Component({
   selector: 'app-root',
@@ -17,6 +19,8 @@ import { MatDatepicker } from '@angular/material/datepicker';
     MatIconModule,
     RouterModule,
     MatDatepicker,
+    FormsModule,
+    MatNativeDateModule
   ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss',

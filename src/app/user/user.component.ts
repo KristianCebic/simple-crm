@@ -21,7 +21,7 @@ import { MatTooltipModule } from '@angular/material/tooltip';
   templateUrl: './user.component.html',
   styleUrl: './user.component.scss',
 })
-export class UserComponent {
+export class UserComponent implements OnInit {
   user = new User();
 
   constructor(public dialog: MatDialog) {}
